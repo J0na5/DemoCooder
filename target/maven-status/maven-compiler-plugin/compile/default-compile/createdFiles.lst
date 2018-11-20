@@ -1,0 +1,17 @@
+com/processbyte/landing/newsletter/SubscriberController.class
+com/processbyte/landing/newsletter/SubscriberServiceImpl.class
+com/processbyte/landing/newsletter/ScheduledTasks.class
+com/processbyte/landing/emailValidation/EmailValidator.class
+com/processbyte/landing/emailSender/EmailStatus.class
+com/processbyte/landing/LandingApplication.class
+com/processbyte/landing/newsletter/Subscriber.class
+com/processbyte/landing/config/MongoConfiguration.class
+com/processbyte/landing/newsletter/SubscriberForm.class
+com/processbyte/landing/homepage/HomeController.class
+com/processbyte/landing/newsletter/SubscriberRepo.class
+com/processbyte/landing/newsletter/InvalidDataException.class
+com/processbyte/landing/i18n/TLDLocaleResolver.class
+com/processbyte/landing/newsletter/SubscriberService.class
+com/processbyte/landing/newsletter/SubscriberExistsException.class
+com/processbyte/landing/emailSender/EmailSender.class
+com/processbyte/landing/emailValidation/ValidEmail.class

@@ -1,0 +1,17 @@
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/emailValidation/ValidEmail.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/emailValidation/EmailValidator.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/SubscriberController.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/SubscriberServiceImpl.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/SubscriberService.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/LandingApplication.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/ScheduledTasks.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/homepage/HomeController.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/config/MongoConfiguration.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/SubscriberForm.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/i18n/TLDLocaleResolver.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/InvalidDataException.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/SubscriberExistsException.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/SubscriberRepo.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/emailSender/EmailSender.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/newsletter/Subscriber.java
+/Users/jonas/IdeaProjects/DemoCooder/src/main/java/com/processbyte/landing/emailSender/EmailStatus.java

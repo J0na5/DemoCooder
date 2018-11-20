@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html th:lang="${language}"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-78429646-3" th:if="${@environment.getProperty('spring.profiles.active') == 'production'}"></script>
+    <script th:if="${@environment.getProperty('spring.profiles.active') == 'production'}">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-78429646-3');
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jonas Gijbels" />
+    <meta name="robots" content="noindex, follow" />
+
+    <title th:text="#{newsletter.unsubscribe.success.header.title}"></title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/wro4j/main.css" />
+
+    <!-- Favicon and shortcut icons -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" type="image/png" href="/img/icon/icon.57.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="/img/icon/icon.72.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="/img/icon/icon.114.png" />
+    <link rel="icon" type="image/png" href="/img/icon/icon.114.png" />
+    <!-- /Favicon and shortcut icons -->
+</head>
+<body class="page-misc">
+<div id="preloader">
+    <div id="preloader-inner"></div>
+</div><!--/preloader-->
+
+<!--back to top-->
+<a href="#" class="scrollToTop"><i class="ion-ios-arrow-up"></i></a>
+<!--back to top end-->
+
+<div class="display-table">
+    <div class="verticle-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  ml-auto mr-auto col-sm-8 ">
+                    <div class="misc-box text-center">
+                        <i class="ion-ios-checkmark-outline error-sign"></i>
+                        <h3 th:text="#{newsletter.unsubscribe.success.title}"></h3>
+                        <p class="margin-b-0">
+                            <span th:text="#{newsletter.unsubscribe.success.text}"></span>
+                            <a th:text="#{newsletter.unsubscribe.success.link}" href="/"></a>.
+                        </p>
+                    </div>
+                    <span class="copyright">&copy; <span th:text="#{footer.copyright}"></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="/wro4j/main.js"></script>
+</body>
+</html>
